@@ -83,6 +83,19 @@ On every push:
 
 ---
 
+## Documentation
+* [📄 Test Plan - Google Docs](https://docs.google.com/document/d/16_Wwb_va-ULXPN6BZkX2hTR2wvNHCGT4INExu9prFGc/edit?usp=sharing)
+* [📊 Manual Test Case - Google Docs](https://docs.google.com/spreadsheets/d/1FgE1IiF1TqU_6AnubfBFQaNK_Nu_LL8dfTwKKqcrVu8/edit?usp=sharing)
+
+
+
+
+
+
+
+---
+
+
 ## 👤 Author
 
 Dafit Saputra Utama
