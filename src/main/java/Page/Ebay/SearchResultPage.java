@@ -1,6 +1,7 @@
 package Page.Ebay;
 
 import Page.core.BasePage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,6 +26,10 @@ public class SearchResultPage extends BasePage {
     @FindBy(xpath = "//h1[contains(@class,'srp-controls__count-heading')]")
     private WebElement resultHeading;
 
+    @FindBy(xpath = "//h3[contains(normalize-space(),'No exact matches found')]")
+    private WebElement noResultMessage;
+
+
 
     public void searchProduct(String keyword, String category) {
 
@@ -44,6 +49,12 @@ public class SearchResultPage extends BasePage {
     public boolean isKeywordInHeading(String keyword) {
         String text = resultHeading.getText().toLowerCase();
         return text.contains(keyword.toLowerCase());
+    }
+
+    public boolean isNoResultMessageDisplayed() {
+        return driver.findElements(
+                By.xpath("//h1[contains(@class,'srp-controls__count-heading') and .//span[text()='0']]")
+        ).size() > 0;
     }
 
 
