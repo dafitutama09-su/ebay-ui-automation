@@ -18,7 +18,8 @@ Automated UI testing project for eBay website using Selenium WebDriver, TestNG, 
 ---
 
 ## 📂 Project Structure
-
+(assets/struktur-1.png)
+(assets/struktur-2.png)
 
 
 ---
@@ -46,6 +47,8 @@ src/test/resources/data/searchData.csv
 Example:
 keyword;category;type MacBook;Computers/Tablets & Networking;valid
 asdfghjk;Computers/Tablets & Networking;invalid
+
+
 
 ---
 
