@@ -1,10 +1,10 @@
-# 🛒 eBay UI Automation
+# eBay UI Automation
 
 Automated UI testing project for eBay website using Selenium WebDriver, TestNG, and Page Object Model (POM).
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - Java 17
 - Selenium WebDriver
@@ -17,8 +17,9 @@ Automated UI testing project for eBay website using Selenium WebDriver, TestNG, 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ![Extent Struktur](assets/struktur-1.png)
+![Extent Struktur](assets/struktur-2.png)
 
 
 
@@ -26,23 +27,23 @@ Automated UI testing project for eBay website using Selenium WebDriver, TestNG, 
 
 ---
 
-## 🎯 Test Coverage
+## Test Coverage
 
-### 🔍 Search Functionality
+### Search Functionality
 - Search product with valid keyword
 - Search product with invalid keyword
 - Validate keyword in URL
 - Validate result heading
 - Validate zero result condition
 
-### 🎛 Filter Functionality
+### Filter Functionality
 - Apply filter
 - Reset filter
 - Verify filter persists after refresh
 
 ---
 
-## 🧪 Data Driven Testing
+## Data Driven Testing
 
 Search data stored in CSV:
 src/test/resources/data/searchData.csv
@@ -54,7 +55,7 @@ asdfghjk;Computers/Tablets & Networking;invalid
 
 ---
 
-## 📊 Reporting
+## Reporting
 
 Extent HTML report generated after execution:
 /reports/extent-report.html
@@ -64,14 +65,14 @@ Screenshots captured for:
 
 ---
 
-## ▶️ How To Run
+## How To Run
 
 ### Run via Terminal
 ./gradlew clean test → Run
 
 ---
 
-## 🔁 CI Pipeline
+## CI Pipeline
 
 This project includes GitHub Actions CI pipeline.
 
@@ -86,3 +87,6 @@ On every push:
 
 Dafit Saputra Utama
 Automation QA Engineer
+
+
+---
