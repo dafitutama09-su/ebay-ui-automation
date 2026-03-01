@@ -18,8 +18,10 @@ Automated UI testing project for eBay website using Selenium WebDriver, TestNG, 
 ---
 
 ## 📂 Project Structure
-(assets/struktur-1.png)
-(assets/struktur-2.png)
+![Extent Struktur](assets/struktur-1.png)
+
+
+
 
 
 ---
